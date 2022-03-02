@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>CRISTIAN</title>
+  </head>
+  <body>
+    <img src="image.jpg" alt="Imagen" width="3000" height="300">
+    <header>
+      <hgroup>
+        <h1>Titulo principal</h1>
+        <h2>Titulo secundario</h2> //Mas importancia
+      </hgroup>
+      <nav>
+        <ul> //ul:desordenada , //ol:ordenada
+          <li>
+            <a href="index.html">Inicio</a> //primero el li y luego el enlace
+          </li> //Sirve para poner link
+          <li>
+            <a target="_blank" href="http://videos.com">Pestaña</a> //El link se abrira en otra pestaña
+          </li>
+          <li>
+            <a href="#Anime series">Parte especifica de la pagina</a> //El link te mandara a una parte especifica de tu pagina
+          </li>
+          <li>
+            <a href="../prueba/12 - hgroup.html">Otra pagina interna</a> //El link te hara abrir una pagina de tus documentos
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h3>Titulo h3</h3> //Mas pequeño
+    <section>
+       <article>
+         <p>To date, there have been 23 animated theatrical Pokémon films (one in the making for July 2020[43]), which have been directed by Kunihiko Yuyama and Tetsuo Yajima, and distributed in Japan by Toho since 1998. The pair of films, Pokémon the Movie: Black—Victini and Reshiram and White—Victini and Zekrom are considered together as one film. Collectibles, such as promotional trading cards, have been available with some of the films. Since the 20th film, the films have been set in an alternate continuity separate from the anime series.
+         </p>
+       </article>
+    </section>
+    <section id="Anime series"> //identificador
+      <p>Objetivo</p> //Ejemplo de pagina para que href vaye a una parte especifica de la pagina
+    </section>
+    <p>
+      1010101011011010101<span> Texto integrado en "p" </span>1111111111110101010101 // El spam se puede integrar en el parrafo porque no es un bloque
+      100101010001010010101<strong> Esta frase tendra mas importacia que los otros </strong>   <em> Especificacion </em>xx //No hay saltos de linea
+      // Con strong hace mas importante la frase y con em lo especifica
+    </p>
+  </body>
+</html>
